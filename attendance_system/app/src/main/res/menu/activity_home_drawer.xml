@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_default"
+            android:icon="@drawable/ic_menu_send"
+            android:title="About" />
+        <item
+            android:id="@+id/nav_my_courses"
+            android:icon="@drawable/ic_menu_send"
+            android:title="My Courses" />
+        <item
+            android:id="@+id/nav_course_reg"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Course Registration" />
+        <item
+            android:id="@+id/nav_take_attendance"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Take Attendance" />
+        <item
+            android:id="@+id/nav_modify_attendance"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Modify Attendance" />
+        <item
+            android:id="@+id/nav_teachers"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Teachers" />
+        <item
+            android:id="@+id/nav_students"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Students" />
+    </group>
+
+    <item
+        android:id="@+id/nav_admin_panel"
+        android:title="Admin Panel">
+
+        <menu>
+
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_add_course"
+                    android:icon="@drawable/ic_menu_manage"
+                    android:title="Add Course" />
+                <item
+                    android:id="@+id/nav_assign_course"
+                    android:icon="@drawable/ic_menu_manage"
+                    android:title="Assign Course" />
+                <item
+                    android:id="@+id/nav_add_admin"
+                    android:icon="@drawable/ic_menu_manage"
+                    android:title="Add Admin" />
+
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Profile">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_change_pass"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="Change Password" />
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="Log out" />
+            </group>
+        </menu>
+    </item>
+
+</menu>

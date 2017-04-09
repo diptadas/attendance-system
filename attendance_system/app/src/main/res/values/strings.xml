@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">AttendanceSystem</string>
+
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="server_error">Error connecting server.</string>
+    <string name="no_data">No data found.</string>
+
+    <string name="about">Developer:\nDipta Das (1104051)\nAriful Islam(1104048)\n\nInstitute: CUET CSE 11\n\nFeedback:\nfacebook.com/dipta.das</string>
+</resources>
